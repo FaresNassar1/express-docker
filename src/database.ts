@@ -49,7 +49,7 @@ export function TestDBHandler(): DatabaseHandler {
 		"localhost",
 		"express-docker",
 		"root",
-		"very_secr3t",
+		'',
 		"3306"
 	)
 	Container.set("DATASOURCE", dbHandler.datasource)
